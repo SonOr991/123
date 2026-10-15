@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Запись на тренировку — Фитнес-центр «Атлет»</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="header">
+    <a href="index.html" class="logo"><img src="img/logo.png" alt="Атлет"><span>Атлет</span></a>
+    <nav class="nav">
+        <a href="index.html">Главная</a>
+        <a href="services.html">Услуги</a>
+        <a href="trainers.html">Тренеры</a>
+        <a href="schedule.html">Расписание</a>
+        <a href="prices.html">Цены</a>
+        <a href="contacts.html">Контакты</a>
+        <a href="appointment.html" class="active">Запись</a>
+        <a href="feedback.html">Обратная связь</a>
+    </nav>
+</header>
+
+<main class="main">
+
+    <!-- ===== БЛОК: ЗАГОЛОВОК СТРАНИЦЫ ===== -->
+    <section class="page-title">
+        <h1>Запись на <span class="accent">тренировку</span></h1>
+        <p class="subtitle">Заполните форму — мы перезвоним и подтвердим запись</p>
+    </section>
+
+    <!-- ===== БЛОК: ФОРМА ЗАПИСИ ===== -->
+    <div class="form-wrap">
+        <form action="#" method="post">
+            <div class="form-row">
+                <div class="form-group">
+                    <label>ФИО *</label>
+                    <input type="text" name="name" required placeholder="Иванов Иван Иванович">
+                </div>
+                <div class="form-group">
+                    <label>Телефон *</label>
+                    <input type="tel" name="phone" required placeholder="+7 (___) ___-__-__">
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label>Услуга</label>
+                    <select name="service">
+                        <option>Тренажёрный зал</option>
+                        <option>Групповые занятия</option>
+                        <option>Персональная тренировка</option>
+                        <option>Бассейн</option>
+                        <option>Кроссфит</option>
+                        <option>Детский фитнес</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Тренер</label>
+                    <select name="trainer">
+                        <option>Любой</option>
+                        <option>Иванов Алексей</option>
+                        <option>Петрова Мария</option>
+                        <option>Сидоров Дмитрий</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label>Дата *</label>
+                    <input type="date" name="date" required>
+                </div>
+                <div class="form-group">
+                    <label>Время *</label>
+                    <input type="time" name="time" required>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label>Комментарий</label>
+                <textarea name="comment" placeholder="Ваши пожелания или особенности здоровья"></textarea>
+            </div>
+
+            <button type="submit" class="btn">Записаться</button>
+        </form>
+    </div>
+
+</main>
+
+<footer class="footer">
+    <div class="footer-grid">
+        <div>
+            <div class="logo-mini">Ат<span>лет</span></div>
+            <p>Фитнес-центр в Энгельсе с 2015 года.</p>
+        </div>
+        <div>
+            <h4>Меню</h4>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="services.html">Услуги</a></li>
+                <li><a href="trainers.html">Тренеры</a></li>
+                <li><a href="prices.html">Цены</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4>Контакты</h4>
+            <p>г. Энгельс, ул. Спортивная, 15</p>
+            <p>+7 (8453) 11-22-33</p>
+        </div>
+    </div>
+    <div class="copy">© 2026 Фитнес-центр «Атлет»</div>
+</footer>
+
+</body>
+</html>
